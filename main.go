@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
+	"math/rand"
+	"net/http"
 	"time"
 
-	"github.com/rs/zerolog/log"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -30,10 +31,26 @@ func TransferFile(ctx context.Context, arr []int64) error {
 	return eg.Wait()
 }
 
-func main() {
-	err := TransferFile(context.Background(), []int64{1, 2, 3, 4, 5})
-	if err != nil {
-		log.Error().Msg(err.Error())
-	}
+func Query(query string) int {
+	ch := make(chan int, 1)
+	for i := 1; i <= 10; i++ {
+		r := rand.Intn(5)
+		fmt.Println(i, r)
+		go func(i, r int) {
 
+			select {
+			case <-time.After(time.Duration(r) * time.Second):
+				ch <- i
+			default:
+				fmt.Println("huy tam")
+			}
+		}(i, r)
+	}
+	return <-ch
+}
+
+func main() {
+	tr := &http.Transport{DisableKeepAlives: true}
+	client := &http.Client{Transport: tr}
+	_ = client
 }

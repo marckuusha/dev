@@ -13,10 +13,6 @@
 
 ### common concurrency
 * https://blog.golang.org/advanced-go-concurrency-patterns
-* https://blog.golang.org/go-concurrency-patterns-timing-out-and
-* https://talks.golang.org/2012/concurrency.slide#1
-* http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
-* https://github.com/golang/go/wiki/CommonMistakes
 * https://habr.com/ru/articles/333654/
 * https://habr.com/ru/articles/271789/
 * Concurrency in Go: Tools and Techniques for Developers, by Katherine Cox-Buday
