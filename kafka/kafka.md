@@ -54,9 +54,18 @@ auto.offset.reset = earliest or latest
 * ручной коммит (возможны дубли)
 
 
-
+### Статьи
 
 * https://kafka.apache.org/quickstart - как быстро развернуть кафку
 * https://www.cloudkarafka.com/blog/faq-how-to-view-kafka-messages.html - основные команды и как юзать для новичка
 * https://www.youtube.com/watch?v=-AZOi3kP9Js&t=2s - основны кафки, круто помогло для старта
+* https://kafka.apache.org/documentation.html#gettingStarted - дока по основам кафки
+* https://stackoverflow.com/questions/39730126/difference-between-session-timeout-ms-and-max-poll-interval-ms-for-kafka-0-10 - объяснение разницы session.timeout.ms и max.poll.interval.ms
+* https://www.confluent.io/en-gb/blog/error-handling-patterns-in-kafka/ - паттерны обработки сообщений с кафкой
+* 
 
+* https://nikgalushko.com/post/go_kafka_drivers_competition/ - сравнени либ кафки для go
+* https://docs.confluent.io/kafka-clients/go/current/overview.html - дока по кафке
+* https://docs.confluent.io/platform/current/clients/confluent-kafka-go/index.html - дока либы confluent для го
+* https://docs.confluent.io/platform/current/installation/configuration/index.html - дока либы confluent для го
+* https://github.com/confluentinc/confluent-kafka-go/tree/master - сама либа

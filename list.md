@@ -18,10 +18,27 @@
 ### goroutine
 * https://habr.com/ru/articles/141853/
 
+* https://www.coursera.org/learn/golang-webservices-1/home/week/3
+
 ## second priority
+
+### IB
+* https://habr.com/ru/companies/bastion/articles/686464/
+
+### load testing
+* apache benchmark; yandex.tank; jmeter;
+* https://medium.com/@antonovieee/load-testing-with-yandex-tank-7942d800adaa
+* https://habr.com/ru/articles/187212/
+* https://github.com/johrstrom/gometer
+* https://github.com/kffl/gocannon
+* https://github.com/tsenart/vegeta
 
 ### pprof
 * https://www.codereliant.io/memory-leaks-with-pprof/
+
+### cronjob
+* https://github.com/robfig/cron
+* https://github.com/go-co-op/gocron
 
 ### other repo
 * https://github.com/tinrab?tab=repositories
@@ -45,3 +62,4 @@
 * https://habr.com/ru/companies/avito/articles/488214/
 * https://github.com/cheatsnake/backend-cheats/blob/master/README_RUS.md
 * https://roadmap.sh/backend
+* https://github.com/mehdihadeli/awesome-software-architecture
