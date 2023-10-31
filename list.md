@@ -1,13 +1,5 @@
 # priority list
 
-## first priority
-
-### race condition
-* done
-
-### pipelines
-* done
-
 ###
 * перенести из файлика статейки
 

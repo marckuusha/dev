@@ -16,4 +16,4 @@
 * https://go.dev/blog/pipelines - (не для новичков, для общего) piplines pattern
 * https://medium.com/statuscode/pipeline-patterns-in-go-a37bb3a7e61d - (дополнение к статье выше) piplines pattern
 * https://blog.golang.org/go-concurrency-patterns-timing-out-and - timeout pattern
-* http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang - паттерн воркер
+* http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang - паттерн воркер\

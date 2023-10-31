@@ -1,5 +1,8 @@
 package main
 
+// howto
+// тут тестим новые фичи
+
 import (
 	"context"
 	"fmt"
