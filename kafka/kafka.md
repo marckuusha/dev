@@ -53,6 +53,9 @@ auto.offset.reset = earliest or latest
 * автокомит - коммитится как только консьюмер получил
 * ручной коммит (возможны дубли)
 
+### IDE кафки 
+https://www.kafkamagic.com/
+
 
 ### Статьи
 
